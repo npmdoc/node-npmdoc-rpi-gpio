@@ -115,7 +115,7 @@ instruction
                     /*jslint evil: true*/
                     eval(document.querySelector('#inputTextareaEval1').value);
                 } catch (errorCaught) {
-                    console.error(errorCaught.stack);
+                    console.error(errorCaught);
                 }
             }
         };
@@ -260,9 +260,9 @@ utility2-comment -->\n\
                 local.assetsDict['/assets.index.template.html'],
                 {
                     env: local.objectSetDefault(local.env, {
-                        npm_package_description: 'example module',
-                        npm_package_name: 'example',
-                        npm_package_nameAlias: 'example',
+                        npm_package_description: 'the greatest app in the world!',
+                        npm_package_name: 'my-app',
+                        npm_package_nameAlias: 'my_app',
                         npm_package_version: '0.0.1'
                     })
                 }
@@ -274,11 +274,11 @@ utility2-comment -->\n\
                     String(match0);
                     switch (match1) {
                     case 'npm_package_description':
-                        return 'example module';
+                        return 'the greatest app in the world!';
                     case 'npm_package_name':
-                        return 'example';
+                        return 'my-app';
                     case 'npm_package_nameAlias':
-                        return 'example';
+                        return 'my_app';
                     case 'npm_package_version':
                         return '0.0.1';
                     }
@@ -294,7 +294,7 @@ utility2-comment -->\n\
         local.assetsDict['/assets.npmdoc_rpi_gpio.rollup.js'] =
             local.assetsDict['/assets.npmdoc_rpi_gpio.rollup.js'] ||
             local.fs.readFileSync(
-                // npmdoc-hack
+                // buildCustomOrg-hack
                 local.npmdoc_rpi_gpio.__dirname +
                     '/lib.npmdoc_rpi_gpio.js',
                 'utf8'
