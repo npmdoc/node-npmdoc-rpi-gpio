@@ -1,4 +1,7 @@
-# api documentation for  [rpi-gpio (v0.8.1)](https://github.com/JamesBarwell/rpi-gpio.js#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-rpi-gpio.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-rpi-gpio) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-rpi-gpio.svg)](https://travis-ci.org/npmdoc/node-npmdoc-rpi-gpio)
+# npmdoc-rpi-gpio
+
+#### basic api documentation for  [rpi-gpio (v0.8.1)](https://github.com/JamesBarwell/rpi-gpio.js#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-rpi-gpio.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-rpi-gpio) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-rpi-gpio.svg)](https://travis-ci.org/npmdoc/node-npmdoc-rpi-gpio)
+
 #### Control Raspberry Pi GPIO pins with node.js
 
 [![NPM](https://nodei.co/npm/rpi-gpio.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/rpi-gpio)
@@ -69,7 +72,8 @@
         "spec": "mocha --reporter spec",
         "test": "mocha"
     },
-    "version": "0.8.1"
+    "version": "0.8.1",
+    "bin": {}
 }
 ```
 
